@@ -92,6 +92,8 @@ public class Transactions {
         System.out.println("Please enter amount: ");
         amount = scanner.nextDouble();
 
+        //Execption Handling for the case when user tries to transfer money from the same account.
+    
         try {
             // Storing user queries in an array.
             String[] queries = {
